@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="501" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="254" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane2" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="320" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="171" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\user\Desktop\urgjenca-500x300.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="14" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Urgjenca Hygeia ka n&#xeb; p&#xeb;rb&#xeb;rje&#xa; t&#xeb; saj, mjek&#xeb; specialist t&#xeb;&#xa; urgjenc&#xeb;s t&#xeb; cil&#xeb; ofrojn&#xeb;&#xa; sh&#xeb;rbim 24 or&#xeb;/7, dhe &#xa;p&#xeb;rkat&#xeb;sisht jan&#xeb;:&#xa;&#xa;*Kardiolog&#xeb;&#xa;*Kirurg&#xeb; t&#xeb; p&#xeb;rgjithsh&#xeb;m&#xa;*Gjinekolog&#xeb;&#xa;*Anestezist-reanimator&#xeb;&#xa;*Pediat&#xeb;r&#xa;*Neurokirurg&#xa;*Neurolog&#xa;*ORL&#xa;*Ortoped"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="14" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Departamenti I Urgjenc&#xeb;s i Spitalit Hygeia Tirane &#xeb;sht&#xeb; i pozicionuar n&#xeb; katin p&#xeb;rdhe&#xa; t&#xeb; nd&#xeb;rtes&#xeb;s dhe ka nj&#xeb; korsi t&#xeb; posacme p&#xeb;r automjetet, duke mund&#xeb;suar k&#xeb;shtu nj&#xeb; &#xa;akses t&#xeb; dretp&#xeb;rdrejt&#xeb; t&#xeb; pacient&#xeb;ve shum&#xeb; pran&#xeb; hyrjes s&#xeb; Urgjenc&#xeb;s.&#xa;N&#xeb; k&#xeb;t&#xeb; Departament do t&#xeb; gjeni nj&#xeb; staf Mjek &amp; infemier t&#xeb; specializuar dhe t&#xeb; p&#xeb;rkushtuar&#xa; ndaj pacient&#xeb;ve, t&#xeb; cil&#xeb;t ofrojn&#xeb;  p&#xeb;rkujdesje, diagnostikim dhe trajtim 24 or&#xeb; n&#xeb; dit&#xeb;/365&#xa; dit&#xeb; t&#xeb; vitit duke mbuluar t&#xeb; gjith&#xeb; spektrin e urgjencave mjek&#xeb;sore, me mbi 500 raste &#xa;urgjencash t&#xeb; trajtuara n&#xeb; muaj.&#xa;Ky Departament n&#xeb; funksionimin e tij t&#xeb; p&#xeb;rditsh&#xeb;m bashk&#xeb;punon ngusht&#xeb;sisht &#xa;dhe asistohet 24 or&#xeb; n&#xeb; dit&#xeb; nga Departamenti i Laborator&#xeb;ve dhe ai i Imazheris&#xeb;&#xa; (ekzaminime ekografike, grafi, CT-skaner, Rezonance Magnetike) me q&#xeb;llimin e &#xa;vet&#xeb;m p&#xeb;r t&#xeb; patur nj&#xeb; diagnoz&#xeb; &#xa;sa m&#xeb; t&#xeb; sakt&#xeb; dhe zgjidhje sa m&#xeb; t&#xeb; shpejt&#xeb; t&#xeb; rasteve mjek&#xeb;sore q&#xeb; paraqiten.&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
